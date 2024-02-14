@@ -1,0 +1,36 @@
+𝐇𝐨𝐰 𝐭𝐨 𝐏𝐫𝐨𝐭𝐞𝐜𝐭 𝐘𝐨𝐮𝐫 𝐀𝐖𝐒 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐚𝐧𝐝 𝐃𝐚𝐭𝐚 𝐮𝐬𝐢𝐧𝐠 𝐯𝐚𝐫𝐢𝐨𝐮𝐬 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐭𝐞𝐜𝐡𝐧𝐢𝐪𝐮𝐞𝐬! 
+
+AWS offers a wide range of security features and services to help you protect your applications and data at all levels. These features and services are designed to help you implement a layered security approach, which is the best way to protect your applications and data from attack.
+
+✅At the network layer, AWS provides features like network firewalls and DDoS protection to help you control access to your resources and protect your data from unauthorized access.
+
+✅At the application layer, AWS provides features like WAFs and bot detection to help you protect your applications from attack.
+
+✅At the data layer, AWS provides features like data encryption and key management to help you protect your data from unauthorized access, disclosure, or modification.
+
+With these security features and services, AWS also offers a variety of tools and resources to help you implement and manage your security posture. These tools and resources include:
+
+✅AWS Security Hub to aggregate security alerts from across your AWS environment.
+
+✅AWS Inspector to assess the security of your AWS resources.
+
+✅AWS Artifact to store and manage security compliance documentation.
+
+To block an IP address using AWS CloudFront, you can use AWS WAF to create a rule that matches the IP address and blocks all traffic from that address. You can then associate the rule with a CloudFront distribution to ensure that it is applied to all requests that are routed to your distribution.
+
+Here are the steps in brief:
+
+☑️Go to the AWS WAF console.
+☑️Create a rule of type "IP match".
+☑️Enter the IP address you want to block in the "IP address" field.
+☑️Select "Block" as the action.
+☑️Associate the rule with the CloudFront distribution you want to protect.
+
+The IP address you specified will now be blocked from accessing your content through CloudFront.
+
+🎯AWS WAF rules are used to filter HTTP traffic to your web applications and block malicious requests. They can be used to protect against a wide range of attacks, such as SQL injection, XSS, and DoS attacks. It's a powerful tool that can help you protect your web applications.
+
+To significantly improve the security of your application you need to carefully configure and maintain your rules.
+
+🎯You can also Centralize AWS network inspection using Transit Gateway (TGW) which can be achieved by setting up a hub-and-spoke network architecture. But navigating this setup can be challenging.
+
